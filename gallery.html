@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse AGAPE FC photo and video gallery. Match highlights, training sessions, and club events.">
+    <meta name="keywords" content="AGAPE FC, gallery, photos, videos, match highlights, events">
+    <title>Gallery | AGAPE FC</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-futbol"></i> AGAPE FC
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="fixtures.html">Fixtures</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tickets.html">Tickets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="hero" style="padding: 150px 0 100px;">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Gallery</h1>
+                <p class="slogan">Relive the best moments</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Categories -->
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-primary" onclick="filterGallery('all')">All</button>
+                    <button type="button" class="btn btn-outline-primary" onclick="filterGallery('matches')">Matches</button>
+                    <button type="button" class="btn btn-outline-primary" onclick="filterGallery('training')">Training</button>
+                    <button type="button" class="btn btn-outline-primary" onclick="filterGallery('events')">Events</button>
+                    <button type="button" class="btn btn-outline-primary" onclick="filterGallery('fans')">Fans</button>
+                </div>
+            </div>
+
+            <!-- Match Photos -->
+            <div class="section-title">
+                <h2><i class="fas fa-camera"></i> Match Day Photos</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400/1a4d2e/ffffff?text=Match+Day+1" alt="Match Day">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <p class="text-center mt-2">AGAPE FC vs Thunder United - Victory Celebration</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400/1a4d2e/ffffff?text=Match+Day+2" alt="Match Day">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <p class="text-center mt-2">John Striker celebrates hat-trick goal</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400/1a4d2e/ffffff?text=Match+Day+3" alt="Match Day">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <p class="text-center mt-2">Team huddle before kickoff</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400/1a4d2e/ffffff?text=Match+Day+4" alt="Match Day">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <p class="text-center mt-2">Amazing save by Tom Keeper</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400/1a4d2e/ffffff?text=Match+Day+5" alt="Match Day">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <p class="text-center mt-2">Gabriel Speed in action</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400/1a4d2e/ffffff?text=Match+Day+6" alt="Match Day">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <p class="text-center mt-2">Marcus Silva debut moment</p>
+                </div>
+            </div>
+
+            <!-- Training Ground -->
+            <div class="section-title mt-5">
+                <h2><i class="fas fa-dumbbell"></i> Training Ground</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400/1a4d2e/ffffff?text=Training+1" alt="Training">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <p class="text-center mt-2">Intense training session</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400/1a4d2e/ffffff?text=Training+2" alt="Training">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <p class="text-center mt-2">Tactical drills with coach</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400/1a4d2e/ffffff?text=Training+3" alt="Training">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <p class="text-center mt-2">Youth academy practice</p>
+                </div>
+            </div>
+
+            <!-- Club Events -->
+            <div class="section-title mt-5">
+                <h2><i class="fas fa-calendar-star"></i> Club Events</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400/1a4d2e/ffffff?text=Event+1" alt="Event">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <p class="text-center mt-2">Season launch event</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400/1a4d2e/ffffff?text=Event+2" alt="Event">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <p class="text-center mt-2">Meet & greet with fans</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400/1a4d2e/ffffff?text=Event+3" alt="Event">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <p class="text-center mt-2">Youth academy open day</p>
+                </div>
+            </div>
+
+            <!-- Fan Gallery -->
+            <div class="section-title mt-5">
+                <h2><i class="fas fa-users"></i> Amazing Fans</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400/1a4d2e/ffffff?text=Fans+1" alt="Fans">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <p class="text-center mt-2">Stadium packed with supporters</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400/1a4d2e/ffffff?text=Fans+2" alt="Fans">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <p class="text-center mt-2">Fans celebrating victory</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400/1a4d2e/ffffff?text=Fans+3" alt="Fans">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <p class="text-center mt-2">Young supporters with banners</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Highlights -->
+    <section class="section bg-light-section">
+        <div class="container">
+            <div class="section-title">
+                <h2><i class="fas fa-video"></i> Video Highlights</h2>
+                <p>Watch our best moments</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Match Highlights" allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5>AGAPE FC 3-1 Thunder United | Full Highlights</h5>
+                            <p class="text-muted"><i class="far fa-calendar"></i> Feb 15, 2026 | <i class="far fa-eye"></i> 45K views</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Best Goals" allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5>Top 10 Goals of the Season So Far</h5>
+                            <p class="text-muted"><i class="far fa-calendar"></i> Feb 10, 2026 | <i class="far fa-eye"></i> 62K views</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Behind the Scenes" allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5>Behind the Scenes: Training Week</h5>
+                            <p class="text-muted"><i class="far fa-calendar"></i> Feb 8, 2026 | <i class="far fa-eye"></i> 28K views</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Player Interview" allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5>Exclusive: John Striker Interview</h5>
+                            <p class="text-muted"><i class="far fa-calendar"></i> Feb 5, 2026 | <i class="far fa-eye"></i> 38K views</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-primary"><i class="fab fa-youtube"></i> Visit Our YouTube Channel</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5><i class="fas fa-futbol"></i> AGAPE FC</h5>
+                    <p>Passion, Unity, Victory - Together We Rise</p>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="fixtures.html">Fixtures</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="tickets.html">Tickets</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Contact Info</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Stadium Road, Sports City, SC 12345</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@agapefc.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AGAPE FC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        function filterGallery(category) {
+            // Gallery filter functionality
+            console.log('Filtering by:', category);
+            // Add active class to clicked button
+            document.querySelectorAll('.btn-group button').forEach(btn => {
+                btn.classList.remove('btn-primary');
+                btn.classList.add('btn-outline-primary');
+            });
+            event.target.classList.remove('btn-outline-primary');
+            event.target.classList.add('btn-primary');
+        }
+    </script>
+</body>
+</html>
