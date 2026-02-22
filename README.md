@@ -52,21 +52,26 @@ A fully responsive, modern multipage website for AGAPE FC football club. Built w
 
 ```
 Agape/
-├── index.html              # Homepage
-├── about.html              # About Us page
-├── team.html               # Team & Squad page
-├── fixtures.html           # Fixtures & Results
-├── news.html               # News & Blog
-├── gallery.html            # Photo & Video Gallery
-├── tickets.html            # Ticket Information
-├── shop.html               # Online Shop
-├── sponsors.html           # Sponsors & Partners
-├── contact.html            # Contact Page
-├── player-profile.html     # Player Profile Sample
-├── css/
+├── README.md              # Project documentation
+├── vercel.json            # Vercel deployment configuration
+├── Pages/                 # HTML pages
+│   ├── index.html         # Homepage
+│   ├── about.html         # About Us page
+│   ├── team.html          # Team & Squad page
+│   ├── fixtures.html      # Fixtures & Results
+│   ├── news.html          # News & Blog
+│   ├── gallery.html       # Photo & Video Gallery
+│   ├── tickets.html       # Ticket Information
+│   ├── shop.html          # Online Shop
+│   ├── sponsors.html      # Sponsors & Partners
+│   ├── contact.html       # Contact Page
+│   └── player-profile.html # Player Profile Sample
+├── Styles/                # Stylesheets
 │   └── style.css          # Custom styles
-└── js/
-    └── main.js            # JavaScript functionality
+├── Script/                # JavaScript files
+│   └── main.js            # JavaScript functionality
+└── Gallery/               # Image gallery
+    └── *.jpeg             # Team and match photos
 ```
 
 ## 🚀 Getting Started
@@ -77,7 +82,7 @@ Agape/
    - All files are ready in the `Agape` folder
 
 2. **Open in Browser**
-   - Simply open `index.html` in your web browser
+   - Simply open `Pages/index.html` in your web browser
    - No server required for basic functionality
 
 3. **For Development**
@@ -88,21 +93,21 @@ Agape/
 ## 🔧 Customization
 
 ### Update Club Information
-1. **Colors**: Edit CSS variables in `css/style.css` (lines 2-7)
-2. **Content**: Update text directly in HTML files
-3. **Images**: Replace placeholder images with actual photos
+1. **Colors**: Edit CSS variables in `Styles/style.css` (lines 2-7)
+2. **Content**: Update text directly in HTML files (in `Pages/` folder)
+3. **Images**: Replace placeholder images with actual photos in `Gallery/` folder
 4. **Logo**: Update the futbol icon in navigation with your club logo
 
 ### Replace Placeholder Images
 Current placeholders use `via.placeholder.com`. Replace with:
-- Player photos
-- Match action shots
+- Player photos (stored in `Gallery/` folder)
+- Match action shots  
 - Training photos
 - Event images
 - Sponsor logos
 
 ### Update Contact Information
-Edit in all HTML files (footer section):
+Edit in all HTML files in `Pages/` folder (footer section):
 - Address: 123 Stadium Road, Sports City, SC 12345
 - Phone: +1 (555) 123-4567
 - Email: info@agapefc.com
@@ -181,7 +186,7 @@ Each page includes:
 
 ### Change Club Colors
 ```css
-/* In css/style.css */
+/* In Styles/style.css */
 :root {
     --primary-color: #1a4d2e;    /* Your club's main color */
     --secondary-color: #ffd700;   /* Your club's accent color */
