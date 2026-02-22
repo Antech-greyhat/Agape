@@ -76,36 +76,6 @@ Agape/
 1. **Download/Clone the project**
    - All files are ready in the `Agape` folder
 
-2. **Open in Browser**
-   - Simply open `index.html` in your web browser
-   - No server required for basic functionality
-
-3. **For Development**
-   - Use a local server like Live Server (VS Code extension)
-   - Or use Python: `python -m http.server 8000`
-   - Or use Node.js: `npx http-server`
-
-## 🔧 Customization
-
-### Update Club Information
-1. **Colors**: Edit CSS variables in `css/style.css` (lines 2-7)
-2. **Content**: Update text directly in HTML files
-3. **Images**: Replace placeholder images with actual photos
-4. **Logo**: Update the futbol icon in navigation with your club logo
-
-### Replace Placeholder Images
-Current placeholders use `via.placeholder.com`. Replace with:
-- Player photos
-- Match action shots
-- Training photos
-- Event images
-- Sponsor logos
-
-### Update Contact Information
-Edit in all HTML files (footer section):
-- Address: 123 Stadium Road, Sports City, SC 12345
-- Phone: +1 (555) 123-4567
-- Email: info@agapefc.com
 
 ## 📱 Responsive Breakpoints
 
@@ -152,69 +122,12 @@ Each page includes:
 - Alt text for images
 - Proper heading hierarchy
 
-## 🌐 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Opera (latest)
-
-## 📝 To-Do for Production
-
-1. Replace all placeholder images
-2. Update all contact information
-3. Add actual player data and statistics
-4. Integrate with a backend for:
-   - Contact form submission
-   - Newsletter signup
-   - Ticket purchasing
-   - Shop/cart functionality
-5. Add actual social media links
-6. Set up analytics (Google Analytics)
-7. Add favicon
-8. Optimize images for web
-9. Set up SSL certificate
-10. Configure proper meta tags with actual URLs
-
-## 🎨 Customization Tips
-
-### Change Club Colors
-```css
-/* In css/style.css */
-:root {
-    --primary-color: #1a4d2e;    /* Your club's main color */
-    --secondary-color: #ffd700;   /* Your club's accent color */
-    --accent-color: #ff6b35;      /* Additional accent */
-}
-```
-
-### Update Social Media Links
-Find all social media icon sections and update href attributes:
-```html
-<a href="https://facebook.com/yourclub" aria-label="Facebook">
-    <i class="fab fa-facebook-f"></i>
-</a>
-```
-
 ## 📧 Support
 
 For questions or issues:
 - Email: info@agapefc.com
-- Phone: +1 (555) 123-4567
-
-## 📄 License
-
-This website template is created for AGAPE FC. Feel free to customize for your club.
-
-## 🙏 Credits
-
-- Built with Bootstrap 5
-- Icons by Font Awesome
-- Design & Development: Custom created for AGAPE FC
 
 ---
 
 **AGAPE FC** - Passion, Unity, Victory - Together We Rise! ⚽
-
-Enjoy your new website! 🎉
+-------- MADE WITH ❤️ BY ANTECH. -----
