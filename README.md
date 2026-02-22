@@ -206,20 +206,8 @@ Find all social media icon sections and update href attributes:
 
 For questions or issues:
 - Email: info@agapefc.com
-- Phone: +1 (555) 123-4567
-
-## 📄 License
-
-This website template is created for AGAPE FC. Feel free to customize for your club.
-
-## 🙏 Credits
-
-- Built with Bootstrap 5
-- Icons by Font Awesome
-- Design & Development: Custom created for AGAPE FC
 
 ---
 
 **AGAPE FC** - Passion, Unity, Victory - Together We Rise! ⚽
-
-Enjoy your new website! 🎉
+-------- MADE WITH ❤️ BY ANTECH. -----
