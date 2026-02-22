@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/Pages/index.html" },
+    { "source": "/index.html", "destination": "/Pages/index.html" },
+    { "source": "/about.html", "destination": "/Pages/about.html" },
+    { "source": "/team.html", "destination": "/Pages/team.html" },
+    { "source": "/fixtures.html", "destination": "/Pages/fixtures.html" },
+    { "source": "/news.html", "destination": "/Pages/news.html" },
+    { "source": "/gallery.html", "destination": "/Pages/gallery.html" },
+    { "source": "/tickets.html", "destination": "/Pages/tickets.html" },
+    { "source": "/shop.html", "destination": "/Pages/shop.html" },
+    { "source": "/contact.html", "destination": "/Pages/contact.html" },
+    { "source": "/sponsors.html", "destination": "/Pages/sponsors.html" },
+    { "source": "/player-profile.html", "destination": "/Pages/player-profile.html" }
+  ]
+}
