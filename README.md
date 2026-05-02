@@ -141,8 +141,8 @@ Current placeholders use `via.placeholder.com`. Replace with:
 
 ### Update Contact Information
 Edit in all HTML files in `Pages/` folder (footer section):
-- **Address**: 123 Stadium Road, Sports City, SC 12345
-- **Phone**: +1 (555) 123-4567
+- **Address**: 90112 Matuu - Machakos
+- **Phone**: +254 714452396
 - **Email**: info@agapefc.com
 
 ---
