@@ -220,7 +220,7 @@ function updateTicketTotal() {
         const quantity = parseInt(quantityInput.value);
         const price = parseFloat(priceElement.dataset.price);
         const total = quantity * price;
-        totalElement.textContent = `$${total.toFixed(2)}`;
+        totalElement.textContent = `Ksh ${total.toFixed(2)}`;
     }
 }
 
