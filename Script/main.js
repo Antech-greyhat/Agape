@@ -132,57 +132,7 @@ galleryItems.forEach(item => {
     });
 });
 
-// Shopping Cart Functionality
-let cart = JSON.parse(localStorage.getItem('cart')) || [];
-
-function addToCart(product) {
-    const existingItem = cart.find(item => item.id === product.id);
-    if (existingItem) {
-        existingItem.quantity += 1;
-    } else {
-        cart.push({ ...product, quantity: 1 });
-    }
-    localStorage.setItem('cart', JSON.stringify(cart));
-    updateCartDisplay();
-    showNotification('Item added to cart!');
-}
-
-function updateCartDisplay() {
-    const cartCount = document.querySelector('.cart-count');
-    if (cartCount) {
-        const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
-        cartCount.textContent = totalItems;
-    }
-}
-
-function showNotification(message) {
-    const notification = document.createElement('div');
-    notification.className = 'alert alert-success position-fixed';
-    notification.style.cssText = 'top: 80px; right: 20px; z-index: 9999;';
-    notification.textContent = message;
-    document.body.appendChild(notification);
-    
-    setTimeout(() => {
-        notification.remove();
-    }, 3000);
-}
-
-// Add to Cart Buttons
-const addToCartButtons = document.querySelectorAll('.add-to-cart');
-addToCartButtons.forEach(button => {
-    button.addEventListener('click', function() {
-        const product = {
-            id: this.dataset.id,
-            name: this.dataset.name,
-            price: parseFloat(this.dataset.price),
-            image: this.dataset.image
-        };
-        addToCart(product);
-    });
-});
-
-// Initialize cart display
-updateCartDisplay();
+// Shopping cart functionality has been moved to cart.js
 
 // Ticket Quantity Selector
 const quantityInputs = document.querySelectorAll('.quantity-input');
